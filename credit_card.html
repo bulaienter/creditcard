@@ -1,0 +1,56 @@
+<!DOCTYPE>
+<html>
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+<link rel="stylesheet" type="text/css" href="css/swiper-4.2.2.min.css"/>
+<link rel="stylesheet" type="text/css" href="css/common.css"/>
+<link rel="stylesheet" type="text/css" href="css/credit_card.css"/>
+<script src="js/jquery-1.11.3.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/swiper-4.2.2.min.js" type="text/javascript" charset="utf-8"></script>
+<title>信用卡</title>
+</head>
+<body>
+<!--轮播图-->
+<div class="swiper-container" id="banner">
+	<div class="swiper-wrapper">
+		<div class="swiper-slide"><img src="images/banner.jpg" ></div>
+		<div class="swiper-slide"><img src="images/banner.jpg" ></div>
+	</div>
+	<div class="swiper-pagination"></div>
+</div>
+<div class="title">推荐银行</div>
+<div class="list">
+	<a class="item">
+		<div class="imgbox"><img src="images/logo.png" ></div>
+		<div class="name">浦发银行<div class="tag"><span>自动结算</span><span>秒批</span></div></div>
+	</a>
+	<a class="item">
+		<div class="imgbox"><img src="images/logo.png" ></div>
+		<div class="name">浦发银行<div class="tag"><span>自动结算</span><span>秒批</span></div></div>
+	</a>
+	<a class="item">
+		<div class="imgbox"><img src="images/logo.png" ></div>
+		<div class="name">浦发银行<div class="tag"><span>自动结算</span><span>秒批</span></div></div>
+	</a>
+	<a class="item">
+		<div class="imgbox"><img src="images/logo.png" ></div>
+		<div class="name">浦发银行<div class="tag"><span>自动结算</span><span>秒批</span></div></div>
+	</a>
+</div>
+<div class="bmenu">
+	<a href="" class="item"><img src="images/goHome.png" ></a>
+	<a href="" class="item"><img src="images/back.png" ></a>
+</div>
+</body>
+</html>
+<script type="text/javascript">
+var banner = new Swiper('#banner',{
+	autoplay: true,
+	pagination: {
+    el: '.swiper-pagination',
+  },
+	observer:true,
+	observeParents: true
+})
+</script>

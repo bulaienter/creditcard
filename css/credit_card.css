@@ -1,0 +1,59 @@
+html {
+	background: #eee;
+}
+#banner {
+	height: 3.4rem;
+}
+.swiper-pagination-bullet-active {
+	background: #333;
+}
+.title {
+	padding: 0 0.24rem;
+	line-height: 0.88rem;
+	font-size: 0.32rem;
+}
+.list {
+	display: flex;
+	justify-content: flex-start;
+	flex-wrap: wrap;
+	padding: 0 0.24rem;
+}
+.list .item {
+	display: block;
+	text-align: center;
+	width: 2.4rem;
+	padding: 0.24rem;
+	background: #fff;
+	margin-right: 0.16rem;
+	margin-bottom: 0.2rem;
+	position: relative;
+}
+.list .item:nth-child(2n) {
+	margin-right: 0;
+}
+.list .item .imgbox {
+	width: 100%;
+	height: 1.7rem;
+}
+.list .item .name {
+	font-size: 0.32rem;
+	margin-top: 0.14rem;
+	position: relative;
+	border-top: #DFDFDF solid 0.01rem;
+	padding-top: 0.24rem;
+}
+.list .item .name .tag {
+	position: absolute;
+	top: -0.24rem;
+	width: 100%;
+	font-size: 0.24rem;
+}
+.list .item .name .tag span {
+	display: inline-block;
+	background: #ff4400;
+	color: #fff;
+	padding: 0.05rem 0.12rem;
+	border-radius: 0.1rem;
+	margin-right: 0.12rem;
+	z-index: 9;
+}

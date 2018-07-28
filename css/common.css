@@ -304,3 +304,15 @@ input {
 }
 
 /*botmenu end*/
+
+/*右下角菜单*/
+.bmenu {
+	position: fixed;
+	bottom: 0.24rem;
+	right: 0.24rem;
+}
+.bmenu .item {
+	width: 1.12rem;
+	display: block;
+	margin-top: 0.12rem;
+}
