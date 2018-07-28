@@ -1,0 +1,49 @@
+.item {
+	margin: 0 0.24rem;
+	line-height: 0.88rem;
+	display: flex;
+	justify-content: flex-start;
+	border-bottom: #dfdfdf solid 0.01rem;
+	font-size: 0.32rem;
+	align-items: center;
+	background: url(../images/xh.png) no-repeat right center;
+	background-size: 0.16rem;
+}
+.item .input {
+	margin-left: 0.12rem;
+}
+.item .input input {
+	line-height: 0.88rem;
+	height: 0.88rem;
+	font-size: 0.32rem;
+}
+.item .input select {
+	border: none;
+	background: #eee url(../images/xl.png) no-repeat 3.3rem center;
+	background-size: 0.26rem;
+	line-height: 0.68rem;
+	padding: 0 0.24rem;
+	width: 3.8rem;
+	border-radius: 0.28rem;
+}
+.item .input.dz input {
+	width: 3.2rem;
+}
+p	{
+	background: url(../images/xh.png) no-repeat left center;
+	background-size: 0.16rem;
+	margin: 0.24rem;
+	padding-left: 0.24rem;
+	font-size: 0.28rem;
+	color: #999;
+}
+.btn {
+	background: #FED500;
+	color: #000;
+	margin: 0.24rem;
+	line-height: 0.88rem;
+	text-align: center;
+	border-radius: 0.88rem;
+	font-size: 0.36rem;
+	margin-top: 0.6rem;
+}
