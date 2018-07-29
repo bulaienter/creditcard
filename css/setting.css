@@ -1,0 +1,15 @@
+.item {
+	background: none;
+}
+.item .input span {
+	background: url(../images/no_check.png) no-repeat center right;
+	background-size: 0.32rem;
+	display: inline-block;
+	font-size: 0.28rem;
+	padding-right: 0.38rem;
+	margin-left: 0.24rem;
+}
+.item .input span.active {
+	background: url(../images/check.png) no-repeat center right;
+	background-size: 0.32rem;
+}

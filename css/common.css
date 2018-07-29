@@ -306,13 +306,20 @@ input {
 /*botmenu end*/
 
 /*右下角菜单*/
-.bmenu {
+.tmenu {
 	position: fixed;
 	bottom: 0.24rem;
 	right: 0.24rem;
 }
-.bmenu .item {
+.tmenu .item1 {
 	width: 1.12rem;
 	display: block;
 	margin-top: 0.12rem;
+}
+/*轮播图*/
+#banner {
+	height: 3.8rem;
+}
+.swiper-pagination-bullet-active {
+	background: #333;
 }

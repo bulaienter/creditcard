@@ -1,0 +1,42 @@
+<!DOCTYPE>
+<html>
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+<link rel="stylesheet" type="text/css" href="css/common.css"/>
+<link rel="stylesheet" type="text/css" href="css/put_forward.css"/>
+<link rel="stylesheet" type="text/css" href="css/setting.css"/>
+<script src="js/jquery-1.11.3.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/put_forward.js" type="text/javascript" charset="utf-8"></script>
+<title>提现设置</title>
+</head>
+<body>
+<div class='item'>
+	<div class="name">密码类型:</div>
+	<div class="input"><span class="active">登录密码</span><span>提款密码</span></div>
+</div>
+<div class="item">
+	<div class="name">原始密码:</div>
+	<div class="input"><input type="password" id="old" placeholder="请输入旧密码"></div>
+</div>
+<div class="item">
+	<div class="name">新的密码:</div>
+	<div class="input"><input type="password" id="new" placeholder="请输入新密码"></div>
+</div>
+<div class="item">
+	<div class="name">确认新密码:</div>
+	<div class="input"><input type="password" id="renew" placeholder="请再次输入新密码"></div>
+</div>
+<div class="btn">确定</div>
+<div class="tmenu">
+	<a href="./" class="item1"><img src="images/goHome.png" ></a>
+	<a href="#" class="item1" onclick="javascript:history.back(-1);"><img src="images/back.png" ></a>
+</div>
+</body>
+</html>
+<script type="text/javascript">
+$('.item .input span').click(function(){
+	$('.item .input span').removeClass('active');
+	$(this).addClass('active');
+})
+</script>
