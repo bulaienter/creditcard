@@ -1,0 +1,40 @@
+.btn {
+	display: block;
+	margin: 0.8rem 0.24rem;
+	background: #FED500;
+	color: #000;
+	font-size: 0.3rem;
+	text-align: center;
+	line-height: 0.88rem;
+	border-radius: 0.88rem;
+}
+.cont .title {
+	padding: 0.24rem;
+	font-size: 0.32rem;
+	text-align: center;
+}
+.cont .img {
+	margin: 0 0.24rem 0.24rem;
+}
+.cont .item {
+	line-height: 0.88rem;
+	height: 0.88rem;
+	border-radius: 0.1rem;
+	/*border: #dfdfdf solid 0.02rem;*/
+	-moz-box-shadow: 0px 0px 0.1rem rgba(215, 215, 215, 1);
+	-webkit-box-shadow: 0px 0px 0.1rem rgba(215, 215, 215, 1);
+	box-shadow: 0px 0px 0.1rem rgba(215, 215, 215, 1);
+	display: flex;
+	margin: 0 0.24rem 0.24rem;
+	padding: 0 0.24rem;
+	align-items: center;
+}
+.cont .item i {
+	width: 0.48rem;
+	margin-right: 0.12rem;
+}
+.cont .item input {
+	height: 0.48rem;
+	line-height: 0.48rem;
+	font-size: 0.26rem;
+}

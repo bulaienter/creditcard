@@ -1,0 +1,82 @@
+<!DOCTYPE>
+<html>
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+<link rel="stylesheet" type="text/css" href="css/swiper-4.2.2.min.css"/>
+<link rel="stylesheet" type="text/css" href="css/common.css"/>
+<link rel="stylesheet" type="text/css" href="css/find.css"/>
+<script src="js/jquery-1.11.3.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/swiper-4.2.2.min.js" type="text/javascript" charset="utf-8"></script>
+<title>热点资讯</title>
+</head>
+<body>
+<!--轮播图-->
+<div class="swiper-container" id="banner">
+	<div class="swiper-wrapper">
+		<div class="swiper-slide"><img src="images/banner.png" ></div>
+		<div class="swiper-slide"><img src="images/banner.jpg" ></div>
+	</div>
+	<div class="swiper-pagination"></div>
+</div>
+<div class="tab">
+	<div class="item active">信用卡</div>|
+	<div class="item">代理专访</div>|
+	<div class="item">贷款</div>|
+	<div class="item">POS机</div>|
+	<div class="item">热点</div>
+</div>
+<!--新闻列表-->
+<div class="newslist">
+	<div class="title">
+		<span>信用卡申请攻略</span>
+		<a href="">更多</a>
+	</div>
+	<a href="" class="item">
+		<div class="info">
+			<h3>信用卡逾期后还能提额吗？逾期提额的正确方法就是这些！</h3>
+			<p><span>信用卡申请攻略</span><span>2018-07-29</span></p>
+		</div>
+		<div class="img" style="background: url(images/img.png) no-repeat center; background-size: cover;"></div>
+	</a>
+	<a href="" class="item">
+		<div class="info">
+			<h3>信用卡逾期后还能提额吗？逾期提额的正确方法就是这些！</h3>
+			<p><span>信用卡申请攻略</span><span>2018-07-29</span></p>
+		</div>
+		<div class="img" style="background: url(images/img.png) no-repeat center; background-size: cover;"></div>
+	</a>
+	<a href="" class="item">
+		<div class="info">
+			<h3>信用卡逾期后还能提额吗？逾期提额的正确方法就是这些！</h3>
+			<p><span>信用卡申请攻略</span><span>2018-07-29</span></p>
+		</div>
+		<div class="img" style="background: url(images/img.png) no-repeat center; background-size: cover;"></div>
+	</a>
+	<a href="" class="item">
+		<div class="info">
+			<h3>信用卡逾期后还能提额吗？逾期提额的正确方法就是这些！</h3>
+			<p><span>信用卡申请攻略</span><span>2018-07-29</span></p>
+		</div>
+		<div class="img" style="background: url(images/img.png) no-repeat center; background-size: cover;"></div>
+	</a>
+</div>
+<div class="he"></div>
+<div class="botmenu">
+  <a href="index.html" class="bmenu home"> 首页 </a>
+  <a href="poster.html" class="bmenu zqh"> 海报 </a>
+	<a href="find.html" class="bmenu th active"> 发现 </a>
+  <a href="user.html" class="bmenu my"> 个人中心 </a>
+</div>
+</body>
+</html>
+<script type="text/javascript">
+var banner = new Swiper('#banner',{
+	autoplay: true,
+	pagination: {
+    el: '.swiper-pagination',
+  },
+	observer:true,
+	observeParents: true
+})
+</script>
