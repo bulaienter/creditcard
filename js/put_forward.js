@@ -16,5 +16,6 @@ $(function(){
 				alert('请选择开户行');
 				return false;
 			}
+		
 	})
 })
