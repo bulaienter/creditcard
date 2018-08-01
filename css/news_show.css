@@ -1,0 +1,59 @@
+.cont {
+	padding: 0.24rem;
+	font-size: 0.26rem;
+	color: #666;
+}
+.cont .title {
+	font-size: 0.3rem;
+	line-height: 0.48rem;
+	margin-bottom: 0.1rem;
+	color: #333;
+}
+.cont .line1 {
+	font-size: 0.24rem;
+	color: #999;
+}
+.cont .line1 .name {
+	margin-left: 0.12rem;
+	color: #FCE003;
+}
+.cont .conttxt {
+	margin-top: 0.24rem;
+	line-height: 0.38rem;
+}
+.cont .conttxt h3 {
+	font-size: 0.28rem;
+	color: #FF9F0E;
+}
+.cont .conttxt p .sp1 {
+	color: #FF9F0E;
+}
+.cont .conttxt p .sp2 {
+	color: #EB5B5B;
+}
+/*代理升级*/
+.dlsj {
+	padding: 0.24rem;
+	font-size: 0.24rem;
+	color: #666;
+}
+.dlsj .title {
+	text-align: center;
+	font-size: 0.32rem;
+	color: #FB560A;
+	line-height: 0.88rem;
+}
+.dlsj .s_t {
+	color: #282828;
+	font-size: 0.28rem;
+	border-left: #FED500 solid 0.05rem;
+	padding-left: 0.12rem;
+	height: 0.28rem;
+	line-height: 0.28rem;
+	overflow: hidden;
+	margin-top: 0.2rem;
+	margin-bottom: 0.1rem;
+}
+.dlsj p .sp1 {
+	color: #FED500;
+}

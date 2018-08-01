@@ -1,0 +1,33 @@
+html {
+	background: #FED500;
+}
+.imgbox {
+	width: 4.2rem;
+	margin: 1rem auto;
+}
+.save {
+	background: #fff;
+	display: flex;
+	justify-content: space-between;
+	padding: 0.24rem;
+	position: fixed;
+	bottom: 1.16rem;
+	width: calc(100% - 0.48rem);
+}
+.save .more {
+	background: url(../images/more.png) no-repeat left center;
+	background-size: 0.44rem;
+	color: #FED500;
+	padding-left: 0.45rem;
+	font-size: 0.28rem;
+	line-height: 0.54rem;
+}
+.save .savebtn {
+	background: #FED500;
+	color: #fff;
+	width: 2.4rem;
+	text-align: center;
+	line-height: 0.54rem;
+	border-radius: 0.54rem;
+	font-size: 0.28rem;
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE>
+<html>
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+<link rel="stylesheet" type="text/css" href="css/swiper-4.2.2.min.css"/>
+<link rel="stylesheet" type="text/css" href="css/common.css"/>
+<link rel="stylesheet" type="text/css" href="css/news_show.css"/>
+<script src="js/jquery-1.11.3.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/swiper-4.2.2.min.js" type="text/javascript" charset="utf-8"></script>
+<title>新闻详情</title>
+</head>
+<body>
+<!--轮播图-->
+<div class="swiper-container" id="banner">
+	<div class="swiper-wrapper">
+		<div class="swiper-slide"><img src="images/banner.png" ></div>
+		<div class="swiper-slide"><img src="images/banner.jpg" ></div>
+	</div>
+	<div class="swiper-pagination"></div>
+</div>
+<div class="cont">
+	<div class="title">新浪旗下新上线贷款口子，最高5w</div>
+	<div class="line1"><span>2018-7-26 16:24:23</span><span class="name">我的名字</span></div>
+	<div class="conttxt">
+		<h3>中介广告</h3>
+		<p>新浪旗下新上线贷款口子，比新浪有借、有还之类的中银合作产品的通过率更高，授权简单认证资料即可申请5万元</p>
+		<br />
+		<p><span class="sp1">口子名称</span>:<span class="sp2">荔枝闪贷</span>--是新浪和兴业合作推出的，背景实力不用多说，两家都是大公司，目前这个口子资料非常简单，系统自动审核，没有人工干预，没有电话回访。放款方为兴业消费肯定是查上征信的，不需要认证芝麻分，相对中银消费来说把控没有那么严格，只要征信当前无逾期，基本都是2个小时通过5000额度</p>
+		<p><span class="sp1">申请入口</span>：荔枝闪贷APP（应用宝），暂时只有安卓版</p>
+		<br />
+		<p><span class="sp1">额度</span>：最高50000元</p>
+		<p><span class="sp1">周期</span>：3/6/9/12期</p>
+		<br />
+		<p><span class="sp1">是否查上征信</span>：查征信上征信</p>
+		<br />
+		<p><span class="sp1">申请资料</span>：</p>
+		<p>1、个人身份及基本信息认证</p>
+		<p>2、实名制手机号</p>
+		<p>3、储蓄卡（必填信息）</p>
+		<br />
+		<p><span class="sp1">操作流程</span>：</p>
+		<p>1、下载【荔枝闪贷】APP，注册登录</p>
+		<p>2、填写认证个人信息，提交审核</p>
+		<p>3、等待审核通过，等待放款</p>
+		<br />
+		<p><span class="sp1">温馨提示</span>：</p>
+		<p>1、兴业旗下的不能有逾期过，比如空手到，小鲨分期，布丁小贷等等。兴业系的以前没逾期过</p>
+		<p>2、新浪系的新浪有借、有还、微博借款无逾期过，而且征信上没逾期记录的，可以去申请下</p>
+		<p>3、目前只有安卓版本，果机有同名APP，但不是这个</p>
+		<p>4、若需要前期费用，申请需谨慎，以防上当受骗！</p>
+	</div>
+</div>
+<div class="tmenu">
+	<a href="./" class="item1"><img src="images/goHome.png" ></a>
+	<a href="#" class="item1" onclick="javascript:history.back(-1);"><img src="images/back.png" ></a>
+</div>
+</body>
+</html>
+<script type="text/javascript">
+var banner = new Swiper('#banner',{
+	autoplay: true,
+	pagination: {
+    el: '.swiper-pagination',
+  },
+	observer:true,
+	observeParents: true
+})
+</script>
