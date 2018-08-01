@@ -9,6 +9,7 @@ html, body, h1, h2, h3, h4, h5, h6, div, dl, dt, dd, ul, ol, li, p, blockquote, 
 html, body, form, fieldset, p, div, h1, h2, h3, h4, h5, h6 {
   -webkit-text-size-adjust: none
 }
+
 html {
   font-size: 15.625vw;
   color: #333;
