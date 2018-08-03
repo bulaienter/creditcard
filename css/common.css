@@ -110,26 +110,6 @@ input {
   white-space: nowrap;
 }
 
-/*自制弹窗样式*/
-
-.mark {
-  display: none;
-  position: fixed;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  margin: auto;
-  height: 0.88rem;
-  line-height: 0.88rem;
-  width: 80%;
-  text-align: center;
-  font-size: 0.28rem;
-  color: #fff;
-  background: rgba(0, 0, 0, 0.6);
-  border-radius: 0.1rem;
-}
-
 /*自制confirm样式*/
 
 .cover {
@@ -145,7 +125,7 @@ input {
 .cover .confirmbox {
   background: #fff;
   width: 5.02rem;
-  height: 2.36rem;
+  height: 3.36rem;
   position: fixed;
   top: 0;
   right: 0;
@@ -154,67 +134,42 @@ input {
   margin: auto;
   border-radius: 0.1rem;
 }
+.cover .confirmbox .close {
+	width: 0.57rem;
+	height: 0.57rem;
+	background: url(../images/close.png) no-repeat center;
+	background-size: cover;
+	position: absolute;
+  right: -0.12rem;
+  top: -0.12rem;
+}
 .cover .confirmbox .line1 {
-  line-height: 1.47rem;
+  height: 2.2rem;
   text-align: center;
   font-size: 0.32rem;
-  border-bottom: #dfdfdf solid 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .cover .confirmbox .line2 {
   line-height: 0.88rem;
   display: flex;
   justify-content: space-around;
   font-size: 0.32rem;
+  padding: 0 0.12rem;
 }
 .cover .confirmbox .line2 span {
   display: block;
-  width: 50%;
   text-align: center;
+  background: #ccc;
+  color: #282828;
+  width: 42%;
+  line-height: 0.77rem;
+  border-radius: 0.77rem;
 }
 .cover .confirmbox .line2 .sure {
-  color: #D2AA72;
-  border-left: #dfdfdf solid 1px;
-}
-
-/*头部标题栏*/
-
-.header.white {
-  background: #fff;
-  color: #333;
-  border-bottom: #dfdfdf solid 1px;
-}
-.header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background: #D1A971;
-  color: #fff;
-  font-size: 0.34rem;
-  padding: 0 0.3rem;
-  height: 0.88rem;
-  position: fixed;
-  z-index: 999;
-  top: 0;
-  width: calc(100% - 0.6rem);
-}
-.header .back {
-  width: 0.2rem;
-}
-.header .title {
-  /*width: calc(100% - 1.02rem);*/
-  text-align: center;
-  padding-left: 0.4rem;
-}
-.header .more {
-  width: 0.34rem;
-  font-size: 0.28rem;
-  text-align: right;
-}
-.header .more.txt {
-  width: 0.56rem;
-}
-.headd_hg {
-  height: 0.88rem;
+  background: #FFCC00;
+  color: #282828;
 }
 
 /*10像素灰条*/
@@ -222,23 +177,6 @@ input {
 .bgline {
   height: 0.1rem;
   background: #f5f5f5;
-}
-
-/*无数据占位图*/
-
-.nodata {
-  margin: 3.38rem auto;
-  text-align: center;
-}
-.nodata img {
-  width: 1.7rem;
-  display: inline-block;
-}
-.nodata p {
-  text-align: center;
-  font-size: 0.28rem;
-  color: #666;
-  margin-top: 0.14rem;
 }
 
 /*底部菜单*/
