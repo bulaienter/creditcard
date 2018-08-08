@@ -8,6 +8,7 @@
 <link rel="stylesheet" type="text/css" href="css/credit_card.css"/>
 <script src="js/jquery-1.11.3.min.js" type="text/javascript" charset="utf-8"></script>
 <script src="js/swiper-4.2.2.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/common.js" type="text/javascript" charset="utf-8"></script>
 <title>信用卡</title>
 	
 </head>
@@ -22,20 +23,20 @@
 </div>
 <div class="title">推荐银行</div>
 <div class="list">
-	<a class="item">
-		<div class="imgbox"><img src="images/logo.png" width="211" height="145"/></div>
+	<a class="item" onclick="clickTips()">
+		<div class="imgbox"><img src="images/logo.png"/></div>
 		<div class="name">浦发银行<div class="tag"><span>自动结算</span><span>秒批</span></div></div>
 	</a>
-	<a class="item">
-		<div class="imgbox"><img src="images/logo.png" width="211" height="145"/></div>
+	<a class="item" onclick="clickTips()">
+		<div class="imgbox"><img src="images/logo.png"/></div>
 		<div class="name">浦发银行<div class="tag"><span>自动结算</span><span>秒批</span></div></div>
 	</a>
-	<a class="item">
-		<div class="imgbox"><img src="images/logo.png" width="211" height="145"/></div>
+	<a class="item" onclick="clickTips()">
+		<div class="imgbox"><img src="images/logo.png"/></div>
 		<div class="name">浦发银行<div class="tag"><span>自动结算</span><span>秒批</span></div></div>
 	</a>
-	<a class="item">
-		<div class="imgbox"><img src="images/logo.png" width="211" height="145"/></div>
+	<a class="item" onclick="clickTips()">
+		<div class="imgbox"><img src="images/logo.png"/></div>
 		<div class="name">浦发银行<div class="tag"><span>自动结算</span><span>秒批</span></div></div>
 	</a>
 </div>
@@ -53,5 +54,14 @@ var banner = new Swiper('#banner',{
   },
 	observer:true,
 	observeParents: true
-})
+});
+function clickTips(){
+	myConfirm('即将申请交通信用卡','取消','确定','1',function(res){
+		if(res.status){	
+			//用户点击确定
+		}else {
+			//用户点击取消
+		}
+	});
+}
 </script>
